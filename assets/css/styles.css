@@ -12,7 +12,7 @@
 
 :root{
     --neon-text-color:#00b3ff;
-    --neon-border-color: rgb(138, 34, 207);
+    --neon-border-color: rgb(255, 28, 255);
     scroll-behavior: smooth;
 }
 
@@ -69,7 +69,7 @@ body{
     align-items: center;
     background-position: center;
     background-size: 100%;
-    background: url(./assets/img/bricks.jpg);
+    background: url(/assets/img/bricks.jpg);
     height: 100vh;
 }
 
@@ -125,26 +125,11 @@ body{
     font-family: 'Bad Script', cursive;
 }
 
-.project_title:hover{
-    color:#fff;
-    filter: blur(0.5px);
-    text-shadow: 0 0 10px #00b3ff,
-                0 0 20px #00b3ff,
-                0 0 40px #00b3ff,
-                0 0 80px #00b3ff,
-                0 0 120px #00b3ff,
-                0 0 200px #00b3ff,
-                0 0 300px #00b3ff,
-                0 0 400px #00b3ff;
-                animation: broken 1ms infinite ;
-    animation: broken 1ms infinite ;
-}
-
 #projects{
     height: 100vh;
     text-align: center;
     color: #00b3ff;
-    background: url(./assets/img/bricks.jpg);
+    background: url(/assets/img/bricks.jpg);
     background-size: cover;
 }
 
@@ -247,7 +232,7 @@ body{
 #profile-link{
     height:100vh;
     text-align: center;
-    background: url(./assets/img/bricks.jpg);
+    background: url(/assets/img/bricks.jpg);
     background-size: cover;
 }
 
@@ -273,7 +258,7 @@ body{
                     0 0 40px #8a22cf,
                     0 0 80px #8a22cf,
                     0 0 120px #8a22cf;
-    font-family: 'Bad Script', cursive;
+    font-family:'NeonFuture';
 }
 
 .contact-links a:hover{
