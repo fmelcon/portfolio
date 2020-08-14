@@ -345,10 +345,6 @@ footer{
         font-size: 0.5em;
     }
 
-    .title{
-        font-size: 5em;
-    }
-
     #projects{
         height: 100%;
         padding: 0;
@@ -388,5 +384,7 @@ footer{
     }
     #welcome-section .container{
         padding: 1em;
-}
+    }
+    i{
+    padding: 1em;
 }
